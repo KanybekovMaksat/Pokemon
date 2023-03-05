@@ -1,0 +1,177 @@
+/* Общие стили  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', 'Arial';
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #f5de5d, #FE9500);
+
+}
+
+/* стили для главной карточки */
+
+.pokemon {
+  width: 600px;
+  margin: 20px 0px;  
+  padding: 20px;
+
+
+
+  background: #76aadb;
+  border-radius: 12px;
+}
+
+/* стили для кнопки */
+.random-btn {
+  background-color: #f44336;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* изменение стиля кнопки при наведении курсора */
+.random-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* изменение стиля кнопки при нажатии */
+.random-btn:active {
+  background-color: #b71c1c;
+}
+
+.Ash{
+  height: 350px;
+  position: fixed;
+  bottom: -10px;
+  left:0;
+}
+
+.Pikachu{
+  height: 250px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.name {
+  color: rgb(230, 224, 224);
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.types {
+  list-style: none;
+}
+
+.sprite{
+    height: 150px;
+}
+
+
+/* Стили для типов Покемонов */
+
+li {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+
+.normal {
+  background-color: #a8a77a;
+}
+
+.fighting {
+  background-color: #c22e28;
+}
+
+.flying {
+  background-color: #a98ff3;
+}
+
+.poison {
+  background-color: #a33ea1;
+}
+
+.ground {
+  background-color: #e2bf65;
+}
+
+.rock {
+  background-color: #b6a136;
+}
+
+.bug {
+  background-color: #a6b91a;
+}
+
+.ghost {
+  background-color: #735797;
+}
+
+.steel {
+  background-color: #b7b7ce;
+}
+
+.fire {
+  background-color: #ee8130;
+}
+
+.water {
+  background-color: #6390f0;
+}
+
+.grass {
+  background-color: #7ac74c;
+}
+
+.electric {
+  background-color: #f7d02c;
+}
+
+.psychic {
+  background-color: #f95587;
+}
+
+.ice {
+  background-color: #96d9d6;
+}
+
+.dragon {
+  background-color: #6f35fc;
+}
+
+.dark {
+  background-color: #705746;
+}
+
+.fairy {
+  background-color: #d685ad;
+}
+
+.unknown {
+  background-color: #e0e0e0;
+}
+
+.shadow {
+  background-color: #212121;
+}
+
+
